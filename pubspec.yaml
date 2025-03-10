@@ -1,0 +1,32 @@
+name: todo_app
+description: "A new Flutter project."
+
+# Prevent the package from being accidentally published to pub.dev
+publish_to: 'none'
+
+# Version and build number for your application
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.6.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^6.1.3        # For state management
+  sqflite: ^2.2.5         # For SQLite database
+  path_provider: ^2.0.14  # For accessing file paths
+  lottie: ^2.7.0          # For animations
+  cupertino_icons: ^1.0.8 # iOS style icons
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0   # Recommended linting rules
+
+flutter:
+  uses-material-design: true
+
+  # Add assets to your application
+  assets:
+    - assets/empty.json
